@@ -1,0 +1,12 @@
+CREATE TABLE subscription (
+	studentID INT AUTO_INCREMENT,
+	studentFisrtName VARCHAR(20) NOT NULL,
+	studentLastName VARCHAR(20) NOT NULL,
+	studentMajor VARCHAR(30) NOT NULL,	
+	studentEmail VARCHAR(30) UNIQUE NOT NULL, 
+	studentPassord VARCHAR(20) NOT NULL,
+	studentJOb VARCHAR(30) DEFAULT 'UNEMPLOYED',
+	PRIMARY KEY(studentID)
+);
+
+
