@@ -1,10 +1,7 @@
-
-
 <?php include_once "header.php"; ?>
+<section>
 	<h1>Hello World</h1>
-	<section>
-
-	</section>
+</section>
 <?php include_once "footer.php"; ?>
 
 

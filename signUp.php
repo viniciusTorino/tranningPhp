@@ -1,6 +1,7 @@
 <?php include_once "header.php"; ?>
 
 <div class="container-signUp">
+	<h1> Sign Up</h1>
 	<div class="wrapper-signUp">
 			<form  class="signup-form" action="includes/signUpDb.php" method="POST">
 				<input type="text" name="studentFirstName" placeholder="First Name">
